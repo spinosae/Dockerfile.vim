@@ -16,6 +16,7 @@ syn keyword dockerfileKeywords FROM MAINTAINER RUN CMD COPY
 syn keyword dockerfileKeywords EXPOSE ADD ENTRYPOINT
 syn keyword dockerfileKeywords VOLUME USER WORKDIR ONBUILD
 syn keyword dockerfileKeywords LABEL ARG HEALTHCHECK SHELL
+syn keyword dockerfileKeywords MOUNT ATTACH TAG
 
 " Bash statements
 setlocal iskeyword+=-
